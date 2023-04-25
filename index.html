@@ -42,6 +42,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	
 
     <script>
+dataLayer.push({
+  event: "purchase",
+  ecommerce: {
+affiliation: "Christ",
+curency: "INR",
+   items: [
+    {
+      item_id: "1",
+      item_name: "AI",            
+    },
+    {
+      item_id: "2",
+      item_name: "Transformers",        
+    }]
+  }
+});
         $(document).ready(function () {
             $('#review-slider-content').lightSlider({
                 auto: true,
